@@ -30,7 +30,7 @@ let countDown = function () {
 
 let allQs = [
     {
-        question: "Quelle est la capitale de l'Australie?",
+        question: "Quelle est la capitale de l'Australie 🇦🇺?",
         choice1: 'Sydney',
         choice2: 'Melbourne',
         choice3: 'Canberra',
@@ -38,7 +38,7 @@ let allQs = [
         answer: 3
     },
     {
-        question: "Quels sont les États américains qui n'observent pas l'heure d'été?",
+        question: "Quels sont les États américains 🇺🇸 qui n'observent pas l'heure d'été?",
         choice1: 'Californie et Nevada',
         choice2: 'Arizona et Hawaï',
         choice3: 'Alaska et Floride',
@@ -54,15 +54,15 @@ let allQs = [
         answer: 4
     },
     {
-        question: "Quel est le troisième signe du zodiaque?",
-        choice1: 'Bélier',
-        choice2: 'Lion',
-        choice3: 'Cancer',
-        choice4: 'Gémeaux',
+        question: "Quel est le troisième signe du zodiaque 👨‍💻?",
+        choice1: 'Bélier ♈',
+        choice2: 'Lion ♌',
+        choice3: 'Cancer ♋',
+        choice4: 'Gémeaux ♊',
         answer: 4
     },
     {
-        question: 'Combien la pieuvre a-t-elle de cœurs?',
+        question: 'Combien la pieuvre 🐙 a-t-elle de cœurs?',
         choice1: '1',
         choice2: '2',
         choice3: '3',
@@ -70,10 +70,10 @@ let allQs = [
         answer: 3
     },
     {
-        question: "Quelle planète a le plus de gravité?",
+        question: "Quelle planète 🪐 a le plus de gravité?",
         choice1: 'Jupiter',
-        choice2: 'Terre',
-        choice3: 'Soleil',
+        choice2: 'Terre 🌎',
+        choice3: 'Soleil 🌞',
         choice4: 'Mars',
         answer: 1
     },
@@ -87,10 +87,10 @@ let allQs = [
     },
     {
         question: "Quel pays a quatre langues officielles? (l'allemand, le français, l'italien et le romanche)",
-        choice1: 'Canada',
-        choice2: 'Suisse',
-        choice3: 'Belgique',
-        choice4: 'Luxembourg',
+        choice1: 'Canada 🇨🇦',
+        choice2: 'Suisse 🇨🇭',
+        choice3: 'Belgique 🇧🇪',
+        choice4: 'Luxembourg 🇱🇺',
         answer: 2
     },
     {
