@@ -46,7 +46,7 @@ let allQs = [
         answer: 2
     },
     {
-        question: "Qui a créé le langage JavaScript",
+        question: "Qui a créé le langage JavaScript 👨‍💻?",
         choice1: 'John Resig',
         choice2: 'Guido van Rossum',
         choice3: 'James Gosling',
@@ -54,7 +54,7 @@ let allQs = [
         answer: 4
     },
     {
-        question: "Quel est le troisième signe du zodiaque 👨‍💻?",
+        question: "Quel est le troisième signe du zodiaque?",
         choice1: 'Bélier ♈',
         choice2: 'Lion ♌',
         choice3: 'Cancer ♋',
@@ -78,7 +78,7 @@ let allQs = [
         answer: 1
     },
     {
-        question: "Quelle société automobile possède Lamborghini, Audi et Porsche?",
+        question: "Quelle société automobile possède Lamborghini, Audi et Porsche 🚗?",
         choice1: 'Audi',
         choice2: 'Mercedes-Benz',
         choice3: 'Volkswagen',
@@ -95,14 +95,14 @@ let allQs = [
     },
     {
         question: "Quelles sont les trois couleurs primaires?",
-        choice1: 'rouge, vert, bleu',
-        choice2: 'rouge, noir, blanc',
-        choice3: 'vert, rose, violet',
-        choice4: 'rouge, jaune, bleu',
+        choice1: 'rouge 🟥, vert 🟩, bleu 🟦 ',
+        choice2: 'rouge 🟥, noir ⬛, blanc ⬜',
+        choice3: 'vert 🟩, orange 🟧, violet 🟪',
+        choice4: 'rouge 🟥, jaune 🟨, bleu 🟦',
         answer: 4
     },
     {
-        question: "Laquelle des îles françaises suivantes se trouve près de Terre-Neuve-et-Labrador?",
+        question: "Laquelle des îles françaises 🇫🇷 suivantes se trouve près de Terre-Neuve-et-Labrador?",
         choice1: 'Martinique',
         choice2: 'Polynésie française',
         choice3: 'Saint-Pierre-et-Miquelon',
