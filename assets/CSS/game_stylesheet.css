@@ -1,0 +1,148 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Saira:wght@200&display=swap');
+
+:root {
+    background-color: #483D8B;
+    font-family: 'Nunito', sans-serif;
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    letter-spacing: 1px;
+}
+
+h2 {
+    font-size: 30px;
+}
+
+p {
+    font-size: 20px;
+}
+
+.game-container {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 800px;
+    height: 800px;
+    margin: auto;
+    left: 0;
+    right: 0;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    bottom: auto;
+}
+
+.game-container-2 {
+    display: flex;
+    position: absolute;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+}
+
+.choice-container {
+    display: flex;
+    margin-bottom: 0.5rem;
+    width: 100%;
+    margin-top: 20px;
+    text-align: center;
+    background-color: rgb(248, 247, 255);
+    transition: 0.1s ease;
+    border-radius: 7px;
+}
+
+.choice-letter {
+    padding: 1.5rem 2.5rem;
+    background-color: rgb(73, 11, 73);
+    color: white;
+}
+
+.choice-text {
+    padding: 1.5rem;
+    width: 100%;
+    color: rgb(59, 18, 59);
+    font-size: 22px;
+    
+}
+
+.choice-container:hover {
+    transform: translateY(2px);
+    box-shadow: 0 5px 2px -2px gray;
+    color: black;
+    cursor: pointer;
+}
+
+.question-container {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    padding-bottom: 20px;
+}
+
+.timer-container {
+  margin: auto;
+  left: 0;
+  right: 0;
+  width: 800px;
+  display: flex;
+  justify-content: space-between;
+  margin-top: 30px;
+  padding: 0 10px 0 10px;
+  border-radius: 7px;
+  background-color: purple;
+  color: white;
+}
+
+.timer-container p {
+    font-size: 30px;
+    font-family: 'Saira', sans-serif;
+    font-weight: 500;
+}
+
+.question {
+    color: white;
+}
+
+.correct {
+    background-color: green;
+}
+
+.incorrect {
+    background-color: red;
+}
+
+.question-container {
+    width: 1050px;
+}
+
+.hurryup {
+    color: rgb(253, 2, 2);
+    font-weight: bolder;
+}
+
+.score-container {
+    display: flex;
+    position: absolute;
+    top: 100%;
+    right: 0;
+    left: 0;
+    margin: auto;
+    width: 800px;
+    background-color: rgb(35, 0, 68);
+    color: white;
+    border-radius: 7px;
+    margin-top: 20px;
+    padding: 0 10px 0 10px;
+}
+
+.score-container p {
+    font-size: 30px;
+    font-family: 'Saira', sans-serif;
+    font-weight: 500;
+}

@@ -1,0 +1,106 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Amatic+SC:wght@700&display=swap');
+
+:root {
+    background-color: rgb(29, 19, 29);
+    font-family: 'Nunito', sans-serif;
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    letter-spacing: 1px;
+}
+
+h1 {
+    font-size: 5.4rem;
+    margin-bottom: 40px;
+    text-align: center;
+    font-size: 45px;
+    text-shadow: 0.5px 2px orange;
+}
+
+.welcome {
+    color: #641D0D;
+    font-family: 'Amatic SC', cursive;
+    font-size: 90px;
+}
+
+.intro, .end-intro-text {
+    text-transform: uppercase;
+    text-shadow: 2px 2px rgb(122, 4, 4);
+    color:rgb(230, 202, 202);
+}
+
+.container, .end-container {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    max-width: 80rem;
+    margin: 0 auto;
+    padding: 2rem;
+}
+
+.quiz {
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+.lang-container, .end-btn-container {
+    display: flex;
+    position: relative;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.lang-btn, .try-again-btn, .homepage-btn {
+    font-size: 25px;
+    margin-bottom: 20px;
+    text-decoration: none;
+    background-color: darkmagenta;
+    transition: 0.2s ease;
+    text-align: center;
+    border-radius: 10px;
+    margin: auto;
+    left: 0;
+    right: 0;
+    padding: 10px 20px 10px 20px;
+    border-radius: 10px;
+    transition: 0.2s ease;
+    color: white;
+
+}
+
+.lang-btn:hover, .try-again-btn:hover, .homepage-btn:hover{
+    transform: translateY(2px);
+    box-shadow: 0 5px 2px -2px gray;
+    background-color: coral;
+    color: black;
+}
+
+.final-score-container {
+    display: flex;
+    width: 1000px;
+}
+
+.final-score-text {
+    text-align: center;
+    text-shadow: 2px 2px rgb(5, 3, 143);
+    color:rgb(252, 183, 33);
+    font-size: 2.5rem;
+    margin: auto;
+    left: 0;
+    right: 0;
+
+}
+
+.end-intro {
+    width: 800px;
+    padding-top: 40px;
+}
