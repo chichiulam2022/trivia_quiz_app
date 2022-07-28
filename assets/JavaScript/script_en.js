@@ -79,7 +79,7 @@ let allQs = [
         answer: 1
     },
     {
-        question: 'What company owns Lamborghini, Audi, and Porsche?',
+        question: 'What company owns Lamborghini, Audi, and Porsche 🚙?',
         choice1: 'Audi',
         choice2: 'Mercedes-Benz',
         choice3: 'Volkswagen',
@@ -96,14 +96,14 @@ let allQs = [
     },
     {
         question: 'What are the three primary colours?',
-        choice1: 'red, green, blue',
-        choice2: 'red, black, white',
-        choice3: 'green, pink, purple',
-        choice4: 'red, yellow, blue',
+        choice1: 'red 🟥, green 🟩, blue 🟦 ',
+        choice2: 'red 🟥, black ⬛, white ⬜',
+        choice3: 'green 🟩, orange 🟧, purple 🟪',
+        choice4: 'red 🟥, yellow 🟨, blue 🟦',
         answer: 4
     },
     {
-        question: 'Which of the following French islands is close to Newfoundland and Labrador?',
+        question: 'Which of the following French islands 🇫🇷 is close to Newfoundland and Labrador?',
         choice1: 'Martinique',
         choice2: 'French Polynesia',
         choice3: 'Saint Pierre and Miquelon',
