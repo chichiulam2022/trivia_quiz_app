@@ -2,7 +2,7 @@ const recentScore = localStorage.getItem('recentScore');
 const finalScoreText = document.querySelector('.final-score-text');
 
 if (recentScore == 10) {
-    finalScoreText.innerText = `Exceptionnel.le! 🎉😍 Votre score : ${recentScore}`
+    finalScoreText.innerText = `Exceptionnel.le! 🎉😍💯 Votre score : ${recentScore}`
 }
 else if (recentScore <= 9 && recentScore >= 6) {
     finalScoreText.innerText = `Bravo! 🥳 Votre score : ${recentScore}`
