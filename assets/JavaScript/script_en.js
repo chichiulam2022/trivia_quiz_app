@@ -64,10 +64,10 @@ let allQs = [
     },
     {
         question: 'How many hearts does an octopus 🐙 have?',
-        choice1: '1',
-        choice2: '2',
-        choice3: '3',
-        choice4: '4',
+        choice1: '1 ❤️',
+        choice2: '2 ❤️❤️',
+        choice3: '3 ❤️❤️❤️',
+        choice4: '4 ❤️❤️❤️❤️',
         answer: 3
     },
     {
