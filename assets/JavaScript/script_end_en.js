@@ -4,7 +4,7 @@ const finalScoreText = document.querySelector('.final-score-text');
 
 // finalScoreText.innerText = recentScore;
 if (recentScore == 10) {
-    finalScoreText.innerText = `Excellent! 🎉😍 Your score: ${recentScore}`
+    finalScoreText.innerText = `Excellent! 🎉😍💯 Your score: ${recentScore}`
 }
 else if (recentScore <= 9 && recentScore >= 6) {
     finalScoreText.innerText = `Bravo! 🥳 Your score: ${recentScore}`
