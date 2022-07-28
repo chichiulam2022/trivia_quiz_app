@@ -63,10 +63,10 @@ let allQs = [
     },
     {
         question: 'Combien la pieuvre 🐙 a-t-elle de cœurs?',
-        choice1: '1',
-        choice2: '2',
-        choice3: '3',
-        choice4: '4',
+        choice1: '1 ❤️',
+        choice2: '2 ❤️❤️',
+        choice3: '3 ❤️❤️❤️',
+        choice4: '4 ❤️❤️❤️❤️',
         answer: 3
     },
     {
